@@ -12,6 +12,7 @@ Useful links:
 
 [Somewhere on Internet](https://codelani.com/languages/hodor.html#:~:text=hodor%20is%20an%20actively%20used,it%20easier%20than%20ever%20before.)
 
+However, here's a guide you can refer to:
 
 ## Installation
 To install Hodor please make sure you have [nodejs](https://nodejs.org/) installed on your machine.
