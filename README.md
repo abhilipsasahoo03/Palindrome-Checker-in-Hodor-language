@@ -56,7 +56,7 @@ To hit the ground running, you can convert your old JavaScript files to Hodor us
 
 # About my code:
 
-## Palindrome Checker in Browswer using HTML and JavaScript
+## Palindrome Checker in Browser using HTML and JavaScript
 
 Firstly, I implemented the logic for checking Palindrome to build a Palindrome checker which takes user input through a prompt box and then provides output on screen as either of the following two:
 
