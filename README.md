@@ -67,5 +67,14 @@ Example:
 ![Screenshot (297)](https://user-images.githubusercontent.com/80174214/149125111-bb06632a-7b6c-4369-aa7a-1ade2760d5ad.png)
 ![Screenshot (298)](https://user-images.githubusercontent.com/80174214/149125152-5e05ae95-4810-42b7-99f3-93c624d00707.png)
 
-However, I decided to convert my JavaScript file to a Hodor file by using the js2hd tool which resulted in the creation of Palindrome.hd file containing the Palindrome.js equivalent code but in Hodor script which can be decrypted back to the JavaScript file anytime. 
+Then, I decided to convert my JavaScript file to a Hodor file by using the js2hd tool which resulted in the creation of Palindrome.hd file containing the Palindrome.js equivalent code but in Hodor script. 
+
+And, I decided to execute it from Command Prompt:
+
+![Screenshot (301)](https://user-images.githubusercontent.com/80174214/149143662-99e9ce5b-7837-44ce-8b45-ee4b7cf92414.png)
+
+The error was expected because ```prompt()``` is a method of Global ```window``` object found in browswers. The Palindrome.js file allows the webpage to respond to user activity, therefore, it is best suited to browser console or from inside an HTML file.
+
+In this case, the Hodorfile simply works as a Cipher text, and can be converted back to JavaScript file anytime.
+
 
