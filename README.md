@@ -56,6 +56,8 @@ To hit the ground running, you can convert your old JavaScript files to Hodor us
 
 # About my code:
 
+## Palindrome Checker in Browswer using HTML and JavaScript
+
 Firstly, I implemented the logic for checking Palindrome to build a Palindrome checker which takes user input through a prompt box and then provides output on screen as either of the following two:
 
 1- It is a palindrome: if the input string is a palindrome
@@ -92,6 +94,8 @@ ReferenceError: prompt is not defined
 ```
 
 The error was expected because ```prompt()``` is a method of Global ```window``` object found in browsers. The Palindrome.js file allows the webpage to respond to user activity, therefore, it is best suited to browser console or from inside an HTML file.
+
+## Palindrome Checker in Command Prompt using Hodor Language
 
 However, I modified the existing Palindrome.js file to Palin.js to take Command line inputs. Then, I converted it to Hodor file Palin.hd using js2hd tool via the Command Prompt only.
 And it works!
