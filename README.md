@@ -100,5 +100,7 @@ My own Palindrome Checker using Hodor Programming language:
 
 ![Screenshot (303)](https://user-images.githubusercontent.com/80174214/149189013-31bba67b-a64c-4c3c-b4a4-58794eb37357.png)
 
+You can use the converted Palin.hd file for execution or generate your own Hodor file from your own Palin.js file using js2hd tool in the Command Prompt.
+
 
 
