@@ -71,10 +71,34 @@ Then, I decided to convert my JavaScript file to a Hodor file by using the js2hd
 
 And, I decided to execute it from Command Prompt:
 
-![Screenshot (301)](https://user-images.githubusercontent.com/80174214/149143662-99e9ce5b-7837-44ce-8b45-ee4b7cf92414.png)
+```
+C:\>hodor Palindrome/HodorPalindrome.hd
+HODOR: \-> Palindrome/HodorPalindrome.hd
+undefined:27
+const string = prompt('Enter a word or sentence(in lowercases without punctuations) or a number: ');
+               ^
+
+ReferenceError: prompt is not defined
+    at eval (eval at convertCode (C:\Users\Abhilipsa\AppData\Roaming\npm\node_modules\hodor-lang\hodor.js:60:3), <anonymous>:27:16)
+    at convertCode (C:\Users\Abhilipsa\AppData\Roaming\npm\node_modules\hodor-lang\hodor.js:60:3)
+    at Object.<anonymous> (C:\Users\Abhilipsa\AppData\Roaming\npm\node_modules\hodor-lang\hodor.js:41:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Abhilipsa\AppData\Roaming\npm\node_modules\hodor-lang\bin\hodor:3:1)
+```
 
 The error was expected because ```prompt()``` is a method of Global ```window``` object found in browsers. The Palindrome.js file allows the webpage to respond to user activity, therefore, it is best suited to browser console or from inside an HTML file.
 
-In this case, the Hodorfile simply works as a Cipher text, and can be converted back to JavaScript file anytime.
+However, I modified the existing Palindrome.js file to Palen.js to take Command line inputs. Then, I converted it to Hodor file Palen.hd using js2hd tool via the Command Prompt only.
+And it works!
+
+My own Palindrome Checker using Hodor Programming language:
+
+![Screenshot (303)](https://user-images.githubusercontent.com/80174214/149189013-31bba67b-a64c-4c3c-b4a4-58794eb37357.png)
+
 
 
