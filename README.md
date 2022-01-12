@@ -39,10 +39,13 @@ hhodor? Hodor!? Hodor!? oHooodorrhodor orHodor!? d();
 Now run the hello world example.
 
 ```bash
-hodor tests/helloworld.hd
-HODOR: \-> tests/helloworld.hd
+hodor Hodorfile/helloworld.hd
+HODOR: \-> Hodorfile/helloworld.hd
 HODOR!
 ```
+
+Example:
+![Screenshot (300)](https://user-images.githubusercontent.com/80174214/149141326-4aa326f0-9ce1-4a56-b93f-6741985dc8b6.png)
 
 
 ## js2hd
