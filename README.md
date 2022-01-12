@@ -1,6 +1,6 @@
 # Palindrome-Checker-in-Hodor-language
 
-A project to check whether a number, a word or even a sentence is palindrome or not through this prompt box, but here's the twist: I attempted to convert my JavaScript file into a Hodor file ( a very non-mainstream programming language!)
+A project to check whether a number, a word or even a sentence (in all lowercase/uppercase with punctuations removed) is a palindrome or not through this prompt box, but here's the twist: I attempted to convert my JavaScript file into a Hodor file ( a very non-mainstream programming language!)
 
 # Hodor Language:
 
