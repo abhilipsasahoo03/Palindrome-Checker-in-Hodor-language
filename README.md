@@ -93,7 +93,7 @@ ReferenceError: prompt is not defined
 
 The error was expected because ```prompt()``` is a method of Global ```window``` object found in browsers. The Palindrome.js file allows the webpage to respond to user activity, therefore, it is best suited to browser console or from inside an HTML file.
 
-However, I modified the existing Palindrome.js file to Palen.js to take Command line inputs. Then, I converted it to Hodor file Palen.hd using js2hd tool via the Command Prompt only.
+However, I modified the existing Palindrome.js file to Palin.js to take Command line inputs. Then, I converted it to Hodor file Palin.hd using js2hd tool via the Command Prompt only.
 And it works!
 
 My own Palindrome Checker using Hodor Programming language:
